@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="将app注册到微信" />
+  <Button
+      android:id="@+id/btnText"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="发送文字" />
+  <Button
+        android:id="@+id/btnHtml"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发送网页" />
+  <Button
+      android:id="@+id/btnOpenWeChat"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="打开微信" />
+  <Button
+      android:id="@+id/btnIsMoments"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="是否支持朋友圈" />
+</LinearLayout>
