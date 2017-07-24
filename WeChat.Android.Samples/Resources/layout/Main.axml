@@ -3,29 +3,49 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-  <Button
+    <Button
         android:id="@+id/btnRegister"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="将app注册到微信" />
-  <Button
-      android:id="@+id/btnText"
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:text="发送文字" />
-  <Button
+    <Button
+        android:id="@+id/btnText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="分享文字" />
+    <Button
         android:id="@+id/btnHtml"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="发送网页" />
+        android:text="分享网页" />
   <Button
-      android:id="@+id/btnOpenWeChat"
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:text="打开微信" />
+        android:id="@+id/btnImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="分享图片" />
   <Button
-      android:id="@+id/btnIsMoments"
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:text="是否支持朋友圈" />
+        android:id="@+id/btnMusic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="分享音乐" />
+  <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="分享视频" />
+  <Button
+        android:id="@+id/btnProject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="分享小程序" />
+    <Button
+        android:id="@+id/btnOpenWeChat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="打开微信" />
+    <Button
+        android:id="@+id/btnIsMoments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="是否支持朋友圈" />
 </LinearLayout>
